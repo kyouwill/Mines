@@ -5,12 +5,12 @@ async function visualizarinformacao(params) {
     const dados = await res.json()
     console.log(dados);
 
-    const faceb = (dados.Facebook)
-    const Youtube = (dados.Youtube)
-    const WhatsApp = (dados.WhatsApp)
-    const Instagram = (dados.Instagram)
-    const Tiktok = (dados.Tiktok)
-    const WeChat = (dados.WeChat)
+    const faceb = (dados.Facebook * 1e6)
+    const Youtube = (dados.Youtube * 1e6)
+    const WhatsApp = (dados.WhatsApp * 1e6)
+    const Instagram = (dados.Instagram * 1e6)
+    const Tiktok = (dados.Tiktok * 1e6)
+    const WeChat = (dados.WeChat * 1e6)
 
 
 
